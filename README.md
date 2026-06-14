@@ -1,73 +1,96 @@
-# React + TypeScript + Vite
+# 🌤️ Weather API — React + TypeScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação de clima em tempo real desenvolvida com **React, TypeScript e Vite**, consumindo a API da OpenWeather.  
+O projeto possui interface moderna com design glassmorphism, tema dinâmico baseado no clima e tratamento de estados de carregamento e erro.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Site publicado
 
-## React Compiler
+👉 https://weather-api-ts-react.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+##  Preview
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+<img width="1917" height="912" alt="AetherV1" src="https://github.com/user-attachments/assets/cca8ae3b-c2e9-4887-9339-1245f659e885" />
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+##  Funcionalidades
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+-  Busca de cidades em tempo real
+-  Integração com OpenWeather API
+-  Tema dinâmico baseado nas condições climáticas
+-  Loading state com feedback visual
+-  Tratamento de erros (cidade não encontrada / falha de rede)
+-  Interface responsiva
+-  UI moderna com glassmorphism e animações suaves
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+##  Tecnologias utilizadas
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- React
+- TypeScript
+- Vite
+- CSS puro
+- OpenWeather API
+
+---
+
+##  Estrutura do projeto
+
+src/
+ ├── components/
+ │    ├── SearchBar.tsx
+ │    ├── WeatherCard.tsx
+ │    ├── LoadingState.tsx
+ │    └── ErrorMessage.tsx
+ ├── types/
+ │    └── weather.ts
+ ├── utils/
+ │    └── weatherTheme.ts
+ ├── App.tsx
+ ├── main.tsx
+ └── index.css
+
+---
+
+##  Como rodar localmente
+
+git clone https://github.com/seu-usuario/weather-api-ts-react.git
+cd weather-api-ts-react
+npm install
+npm run dev
+
+---
+
+##  Configuração da API
+
+Crie um arquivo `.env` na raiz do projeto:
+
+VITE_WEATHER_API_KEY=sua_api_key_aqui
+
+---
+
+##  Aprendizados
+
+- Consumo de APIs REST
+- React com TypeScript
+- Manipulação de estados
+- Componentização
+- UI moderna com CSS puro
+- Sistema de tema dinâmico
+
+---
+
+##  Próximas melhorias
+
+- Adicionar histórico de buscas
+- Implementar geolocalização
+- Melhorar animações
+- Migrar para Next.js
+- Modo dark/light manual
+
+---
