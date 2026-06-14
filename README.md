@@ -41,23 +41,8 @@ O projeto possui interface moderna com design glassmorphism, tema dinâmico base
 
 ##  Estrutura do projeto
 
-src/
-├── components/
-│   ├── SearchBar.tsx
-│   ├── WeatherCard.tsx
-│   ├── LoadingState.tsx
-│   └── ErrorMessage.tsx
-│
-├── types/
-│   └── weather.ts
-│
-├── utils/
-│   └── weatherTheme.ts
-│
-├── App.tsx
-├── main.tsx
-└── index.css
----
+<img width="262" height="431" alt="image" src="https://github.com/user-attachments/assets/1b40a367-76b3-4eb0-b04e-0807e7dc3418" />
+
 
 ##  Como rodar localmente
 
