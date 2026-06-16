@@ -1,6 +1,9 @@
+
+{/* Imports */}
+
+
 import { useState, useCallback } from 'react';
 import type { WeatherData, WeatherError } from "./types/weather";
-
 import { SearchBar } from './components/SearchBar';
 import { WeatherCard } from './components/WeatherCard';
 import { LoadingState } from './components/LoadingState';
