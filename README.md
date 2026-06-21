@@ -31,13 +31,13 @@ O projeto possui interface moderna com design glassmorphism, tema dinâmico base
 
 ##  Tecnologias utilizadas
 
-- React
-- TypeScript
-- Vite
-- CSS puro
-- OpenWeather API
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" title="React"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="40" title="TypeScript"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vite/vite-original.svg" width="40" title="Vite"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" title="CSS3"/>
+</p>
 
----
 
 ##  Estrutura do projeto
 
