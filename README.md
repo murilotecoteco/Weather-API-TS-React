@@ -37,6 +37,11 @@ O projeto possui interface moderna com design glassmorphism, tema dinâmico base
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vite/vite-original.svg" width="40" title="Vite"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" title="CSS3"/>
 </p>
+Frontend:
+React • TypeScript • Vite • CSS puro
+
+Integração:
+OpenWeather API
 
 
 ##  Estrutura do projeto
